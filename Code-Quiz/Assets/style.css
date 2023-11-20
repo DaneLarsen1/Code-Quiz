@@ -1,0 +1,121 @@
+body, h1, h2, p, ul, li, button, input {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Apply a background color to the body */
+body {
+    background-color: #f0f0f0;
+}
+
+/* Styling for the quiz screens */
+#start-screen, #quiz-container, #end-screen {
+    text-align: center;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+/* Styling for buttons */
+#next-button {
+    background-color: #fff;
+    color: black;
+    width: 200px;
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    border: 2px solid black;
+}
+
+button {
+    background-color: #4caf50;
+    color: black;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Styling for the question and options */
+#quiz-container {
+    position: relative; /* Make it a positioning context for the absolute positioning of timer-container */
+}
+
+#question-container {
+    text-align: center; /* Align the content to the left */
+    margin-bottom: 20px;
+}
+
+#timer-container {
+    font-size: 18px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+}
+
+#question {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+button {
+    display: block;
+    width: 100%;
+}
+
+/* Styling for feedback message */
+#feedback {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Styling for the final score and initials input */
+#final-score, #initials {
+    margin-top: 20px;
+}
+
+/* Responsive styling for smaller screens */
+@media only screen and (max-width: 600px) {
+    #start-screen, #quiz-container, #end-screen {
+        margin: 20px;
+    }
+}
+#highscores-screen {
+    text-align: center;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#highscores-list {
+    list-style: none;
+    padding: 0;
+}
+
+#highscores-list li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.button {
+    background-color: #4caf50;
+    color: black;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
